@@ -263,6 +263,22 @@ footer {
     border-radius: 0 0 18px 18px;
 }
 
+.qualifications {
+    background: #fff;
+    margin: 32px auto;
+    border-radius: 18px;
+    box-shadow: 0 2px 8px #e0e0e0;
+    max-width: 700px;
+    padding: 28px 18px;
+    animation: fadeInUp 1.2s both;
+}
+.qualifications h2 {
+    color: #1d1d1f;
+    font-size: 1.4rem;
+    margin-bottom: 14px;
+    font-weight: 600;
+}
+
 @keyframes fadeInDown {
     0% { opacity: 0; transform: translateY(-30px); }
     100% { opacity: 1; transform: translateY(0); }
@@ -282,7 +298,7 @@ footer {
 
 /* Responsive styles */
 @media (max-width: 700px) {
-    .about, .services, .testimonials, .contact, .blog, .diet-plans {
+    .about, .services, .testimonials, .contact, .blog, .diet-plans, .qualifications {
         max-width: 98vw;
         padding: 16px 4vw;
         margin: 18px auto;
@@ -292,7 +308,7 @@ footer {
         flex-direction: column;
         gap: 12px;
     }
-    .service-card {
+    .service-card, .qualifications .plan-card {
         min-width: unset;
         padding: 12px 8px;
     }
