@@ -82,8 +82,11 @@
     box-shadow: 0 4px 16px #0071e344;
 }
 /* Profile image styling */
-.profile-image {
+.qualifications .plans-list {
     display: flex;
+    justify-content: center;
+    align-items: center;
+}
     justify-content: center;
     align-items: center;
     margin-top: 24px;
