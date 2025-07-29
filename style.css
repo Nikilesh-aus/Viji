@@ -44,6 +44,8 @@
     margin-bottom: 12px;
     box-shadow: 0 2px 8px #e0e0e0;
     display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 .plan-title {
     color: #1d1d1f;
